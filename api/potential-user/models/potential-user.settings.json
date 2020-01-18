@@ -1,0 +1,17 @@
+{
+  "info": {
+    "name": "PotentialUser"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "email": {
+      "type": "email",
+      "unique": true
+    }
+  },
+  "connection": "default",
+  "collectionName": "potential_users"
+}
